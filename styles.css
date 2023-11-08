@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 75vh;
+    background-color: #1f2937;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding-top: 24px;
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.links, a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    color: #e5e7eb;
+    font-size: 18px;
+    gap: 30px;
+}
